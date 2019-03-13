@@ -1,0 +1,21 @@
+disabled_rules:
+- void_return
+excluded:
+- Carthage/
+- Cartfile
+- Pods/
+- Podfile
+- Podfile.lock
+- GitHubAPI
+- GitHubAPIAll
+- vendor
+- openapi-patch-swift
+
+line_length: 200
+cyclomatic_complexity:
+  warning: 25
+identifier_name:
+  min_length: 1
+function_body_length:
+  warning: 160
+  error: 200

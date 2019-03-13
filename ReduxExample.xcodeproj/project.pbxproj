@@ -14,7 +14,6 @@
 		D16ECCE7FFCB9B4CCAAACC0E /* Pods_ReduxTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91F48DCC0182C47AB4E942D7 /* Pods_ReduxTests.framework */; };
 		D638FEF82237FA6300BDFD09 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638FEF72237FA6300BDFD09 /* AppDelegate.swift */; };
 		D638FEFA2237FA6300BDFD09 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638FEF92237FA6300BDFD09 /* ViewController.swift */; };
-		D638FEFD2237FA6300BDFD09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D638FEFB2237FA6300BDFD09 /* Main.storyboard */; };
 		D638FEFF2237FA6500BDFD09 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D638FEFE2237FA6500BDFD09 /* Assets.xcassets */; };
 		D638FF022237FA6500BDFD09 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D638FF002237FA6500BDFD09 /* LaunchScreen.storyboard */; };
 		D638FF0D2237FA6500BDFD09 /* ReduxExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638FF0C2237FA6500BDFD09 /* ReduxExampleTests.swift */; };
@@ -29,6 +28,15 @@
 		D638FF602237FCF700BDFD09 /* API.h in Headers */ = {isa = PBXBuildFile; fileRef = D638FF502237FCF700BDFD09 /* API.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D638FF632237FCF700BDFD09 /* API.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D638FF4E2237FCF700BDFD09 /* API.framework */; };
 		D638FF642237FCF700BDFD09 /* API.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D638FF4E2237FCF700BDFD09 /* API.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D647FD242239592700D2394B /* IGListKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD232239592700D2394B /* IGListKit.framework */; };
+		D647FD262239592E00D2394B /* KeychainAccess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD252239592E00D2394B /* KeychainAccess.framework */; };
+		D647FD282239593300D2394B /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD272239593300D2394B /* Kingfisher.framework */; };
+		D647FD2A2239593A00D2394B /* MarkdownView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD292239593A00D2394B /* MarkdownView.framework */; };
+		D647FD2C2239593F00D2394B /* ReSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD2B2239593F00D2394B /* ReSwift.framework */; };
+		D647FD302239598100D2394B /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD2F2239598100D2394B /* RxCocoa.framework */; };
+		D647FD322239598800D2394B /* RxOptional.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD312239598800D2394B /* RxOptional.framework */; };
+		D647FD342239598D00D2394B /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD332239598D00D2394B /* RxSwift.framework */; };
+		D647FD362239599400D2394B /* SwiftyBeaver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D647FD352239599400D2394B /* SwiftyBeaver.framework */; };
 		DCC1D8FADC86333044F95D5C /* Pods_ReduxExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 019D99F8B9250BE5E03071B4 /* Pods_ReduxExampleUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -149,6 +157,17 @@
 		D638FF562237FCF700BDFD09 /* APITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = APITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D638FF5D2237FCF700BDFD09 /* APITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APITests.swift; sourceTree = "<group>"; };
 		D638FF5F2237FCF700BDFD09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D647FD1E2239510900D2394B /* iOS */ = {isa = PBXFileReference; lastKnownFileType = folder; name = iOS; path = Carthage/Build/iOS; sourceTree = "<group>"; };
+		D647FD232239592700D2394B /* IGListKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IGListKit.framework; path = Carthage/Build/iOS/IGListKit.framework; sourceTree = "<group>"; };
+		D647FD252239592E00D2394B /* KeychainAccess.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = KeychainAccess.framework; path = Carthage/Build/iOS/KeychainAccess.framework; sourceTree = "<group>"; };
+		D647FD272239593300D2394B /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
+		D647FD292239593A00D2394B /* MarkdownView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MarkdownView.framework; path = Carthage/Build/iOS/MarkdownView.framework; sourceTree = "<group>"; };
+		D647FD2B2239593F00D2394B /* ReSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ReSwift.framework; path = Carthage/Build/iOS/ReSwift.framework; sourceTree = "<group>"; };
+		D647FD2D2239594300D2394B /* RxAtomic.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxAtomic.framework; path = Carthage/Build/iOS/RxAtomic.framework; sourceTree = "<group>"; };
+		D647FD2F2239598100D2394B /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		D647FD312239598800D2394B /* RxOptional.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxOptional.framework; path = Carthage/Build/iOS/RxOptional.framework; sourceTree = "<group>"; };
+		D647FD332239598D00D2394B /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		D647FD352239599400D2394B /* SwiftyBeaver.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyBeaver.framework; path = Carthage/Build/iOS/SwiftyBeaver.framework; sourceTree = "<group>"; };
 		F0999BE0F1C902DADCC03CAC /* Pods_ReduxExample_Redux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReduxExample_Redux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -159,6 +178,15 @@
 			files = (
 				D638FF3F2237FB1500BDFD09 /* Redux.framework in Frameworks */,
 				D638FF632237FCF700BDFD09 /* API.framework in Frameworks */,
+				D647FD242239592700D2394B /* IGListKit.framework in Frameworks */,
+				D647FD262239592E00D2394B /* KeychainAccess.framework in Frameworks */,
+				D647FD282239593300D2394B /* Kingfisher.framework in Frameworks */,
+				D647FD2A2239593A00D2394B /* MarkdownView.framework in Frameworks */,
+				D647FD2C2239593F00D2394B /* ReSwift.framework in Frameworks */,
+				D647FD302239598100D2394B /* RxCocoa.framework in Frameworks */,
+				D647FD322239598800D2394B /* RxOptional.framework in Frameworks */,
+				D647FD342239598D00D2394B /* RxSwift.framework in Frameworks */,
+				D647FD362239599400D2394B /* SwiftyBeaver.framework in Frameworks */,
 				B43A81873B0826807D5FD170 /* Pods_ReduxExample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -237,6 +265,17 @@
 		72C0205D52879090DD9B47E2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D647FD352239599400D2394B /* SwiftyBeaver.framework */,
+				D647FD332239598D00D2394B /* RxSwift.framework */,
+				D647FD312239598800D2394B /* RxOptional.framework */,
+				D647FD2F2239598100D2394B /* RxCocoa.framework */,
+				D647FD2D2239594300D2394B /* RxAtomic.framework */,
+				D647FD2B2239593F00D2394B /* ReSwift.framework */,
+				D647FD292239593A00D2394B /* MarkdownView.framework */,
+				D647FD272239593300D2394B /* Kingfisher.framework */,
+				D647FD252239592E00D2394B /* KeychainAccess.framework */,
+				D647FD232239592700D2394B /* IGListKit.framework */,
+				D647FD1E2239510900D2394B /* iOS */,
 				A7604DC6E23DD53AC5ED03C6 /* Pods_ReduxExample.framework */,
 				BCC7DC13EC37BCCA5671DB44 /* Pods_ReduxExample_API.framework */,
 				F0999BE0F1C902DADCC03CAC /* Pods_ReduxExample_Redux.framework */,
@@ -277,6 +316,12 @@
 		D638FEF62237FA6300BDFD09 /* ReduxExample */ = {
 			isa = PBXGroup;
 			children = (
+				D638FF7022394AA600BDFD09 /* Debug */,
+				D638FF6F22394A8A00BDFD09 /* Extensions */,
+				D638FF6E22394A7400BDFD09 /* Folio-UI-Collection */,
+				D638FF6D22394A5D00BDFD09 /* Controllers */,
+				D638FF6C22394A4F00BDFD09 /* Protocol */,
+				D638FF6B22394A0C00BDFD09 /* Generated */,
 				D638FEF72237FA6300BDFD09 /* AppDelegate.swift */,
 				D638FEF92237FA6300BDFD09 /* ViewController.swift */,
 				D638FEFB2237FA6300BDFD09 /* Main.storyboard */,
@@ -352,6 +397,48 @@
 			path = APITests;
 			sourceTree = "<group>";
 		};
+		D638FF6B22394A0C00BDFD09 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
+		D638FF6C22394A4F00BDFD09 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		D638FF6D22394A5D00BDFD09 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D638FF6E22394A7400BDFD09 /* Folio-UI-Collection */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Folio-UI-Collection";
+			sourceTree = "<group>";
+		};
+		D638FF6F22394A8A00BDFD09 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D638FF7022394AA600BDFD09 /* Debug */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Debug;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -384,6 +471,9 @@
 				D638FEF22237FA6300BDFD09 /* Resources */,
 				D638FF442237FB1500BDFD09 /* Embed Frameworks */,
 				2C72AD25624EDF084329BF2F /* [CP] Embed Pods Frameworks */,
+				D647FD202239513E00D2394B /* Run Script Swiftgen */,
+				D647FD212239518B00D2394B /* Run Script Swiftlint */,
+				D647FD222239523500D2394B /* Run Script Carthage */,
 			);
 			buildRules = (
 			);
@@ -581,7 +671,6 @@
 			files = (
 				D638FF022237FA6500BDFD09 /* LaunchScreen.storyboard in Resources */,
 				D638FEFF2237FA6500BDFD09 /* Assets.xcassets in Resources */,
-				D638FEFD2237FA6300BDFD09 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -799,6 +888,78 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ReduxExampleUITests/Pods-ReduxExampleUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		D647FD202239513E00D2394B /* Run Script Swiftgen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script Swiftgen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"$PODS_ROOT/SwiftGen/bin/swiftgen\" >/dev/null; then\n$PODS_ROOT/SwiftGen/bin/swiftgen\nelse\necho \"warning: SwiftGen not installed, download from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+		D647FD212239518B00D2394B /* Run Script Swiftlint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script Swiftlint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+		D647FD222239523500D2394B /* Run Script Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/IGListKit.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/ReSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxOptional.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyBeaver.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/KeychainAccess.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/MarkdownView.framework",
+			);
+			name = "Run Script Carthage";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/ReSwift.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/IGListKit.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SwiftyBeaver.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxOptional.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/KeychainAccess.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/Kingfisher.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/MarkdownView.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
 		};
 		F26B7398444C43AA6477E9BB /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1089,15 +1250,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PROJECT_DIR}/Carthage/Build/iOS\"",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReduxExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanada.ReduxExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -1107,15 +1275,22 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PROJECT_DIR}/Carthage/Build/iOS\"",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = ReduxExample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				NEW_SETTING = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sanada.ReduxExample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
